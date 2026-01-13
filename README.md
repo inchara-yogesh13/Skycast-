@@ -14,4 +14,4 @@ Skycast is built using HTML, CSS, and JavaScript, leveraging OpenWeatherMap API 
 Optimized for multiple devices, Skycast demonstrates practical skills in frontend development, API integration, and interactive web design. It is an ideal project for portfolios or academic submissions, showcasing proficiency in full-stack web development principles, real-time data handling, and modern UI/UX practices.
 
 OUTPUT:
-<img width="1440" height="900" alt="Image" src="https://github.com/user-attachments/assets/8c8fa460-9459-4a69-9ef0-0d4b88ab75fa" />
+<img width="1440" height="900" alt="Image" src="https://github.com/user-attachments/assets/6093eb33-01e0-40f1-97fd-307a2861cb06" />
