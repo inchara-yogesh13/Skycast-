@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skycast</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>🌤 Skycast</h1>
+      <div class="search-box">
+        <input type="text" id="cityInput" placeholder="Search city">
+        <button id="searchBtn">🔍</button>
+        <button id="locBtn">📍</button>
+      </div>
+    </header>
+
+    <div class="loader" id="loader">Fetching weather...</div>
+    <div class="error" id="error"></div>
+
+    <section class="current" id="currentWeather">
+      <div class="temp" id="temp"></div>
+      <img id="icon">
+      <div class="condition" id="condition"></div>
+      <div class="meta">
+        <span id="city"></span> • <span id="time"></span>
+      </div>
+    </section>
+
+    <section class="cards">
+      <div class="card">💧 Humidity <span id="humidity"></span>%</div>
+      <div class="card">🌬 Wind <span id="wind"></span> km/h</div>
+      <div class="card">🌡 Feels like <span id="feels"></span>°C</div>
+    </section>
+
+    <section class="forecast" id="forecast"></section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
